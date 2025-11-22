@@ -47,6 +47,7 @@
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 </a>&nbsp;
 ---
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:paulo99ass@gmail.com)
 
 ✨ *Sempre aprendendo. Sempre explorando dados.*
 
