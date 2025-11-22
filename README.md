@@ -26,7 +26,7 @@
 
 ## 🚀 Projetos em Destaque
 
-### 🔹 Segmentação e Análise de Risco de Crédito – Pernambuco
+### 🔹 [Segmentação e Análise de Risco de Crédito – Pernambuco](https://github.com/pauloantonioms/segmentacao-risco-credito-pe)
 - Análise do **SCR.data**, modelagem em R e uso de DuckDB  
 - Indicadores de carteira e segmentação com **K-Prototypes**
 
