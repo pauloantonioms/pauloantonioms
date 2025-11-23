@@ -34,7 +34,7 @@
 - Análise de microdados do SINAN (2017–2024)  
 - Testes estatísticos, **regressão logística** e elaboração de relatórios
 
-### 🔹 Análise Espacial da Dengue no Nordeste
+### 🔹 Análise espacial de pacientes com dengue com sinais de alarme e dengue grave no Nordeste
 - Moran’s I, risco relativo e mapas temáticos em R  
 - Identificação de áreas críticas e padrões espaciais
 
