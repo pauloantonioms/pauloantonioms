@@ -30,7 +30,7 @@
 - Análise do **SCR.data**, modelagem em R e uso de DuckDB  
 - Indicadores de carteira e segmentação com **K-Prototypes**
 
-### 🔹 PIBIC – TB/HIV (*em desenvolvimento*)
+### 🔹 Fatores de risco associados ao óbito pela coinfecção tuberculose/HIV no Brasil (*em desenvolvimento*)
 - Análise de microdados do SINAN (2017–2024)  
 - Testes estatísticos, **regressão logística** e elaboração de relatórios
 
