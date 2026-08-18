@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Site Teste</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            min-height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        .section {
+            padding: 60px 8%;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h2 {
+                font-size: 32px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <h2>Bem-vindo ao meu site</h2>
+
+            <p>
+                Este é um site de teste criado com HTML e CSS.
+                Aqui você pode experimentar diferentes elementos,
+                cores, imagens e layouts.
+            </p>
+
+            <a href="#sobre" class="btn">Conheça mais</a>
+        </section>
+
+
+        <section class="section" id="sobre">
+            <h2>Sobre o site</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Simples</h3>
+                    <p>
+                        Um layout simples e fácil de editar,
+                        ideal para começar um projeto.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Responsivo</h3>
+                    <p>
+                        O site se adapta a computadores,
+                        tablets e celulares.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Personalizável</h3>
+                    <p>
+                        Você pode alterar cores, textos,
+                        imagens e seções facilmente.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="section" id="servicos">
+            <h2>Serviços</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Serviço 1</h3>
+                    <p>
+                        Descrição do primeiro serviço.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Serviço 2</h3>
+                    <p>
+                        Descrição do segundo serviço.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Serviço 3</h3>
+                    <p>
+                        Descrição do terceiro serviço.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="section" id="contato">
+            <h2>Contato</h2>
+
+            <div style="text-align: center;">
+                <p>
+                    Entre em contato para saber mais.
+                </p>
+
+                <br>
+
+                <a href="mailto:contato@exemplo.com" class="btn">
+                    Entrar em contato
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
